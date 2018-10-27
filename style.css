@@ -1,24 +1,65 @@
-* {
-  box-sizing: border-box;
+html, body {
+    margin:0;
+    height:100%;
+    width:100%;
+    padding:0;
 }
-
-body {
-  margin: 0;
-}
-
 section {
-  width: 100%;
-  padding: 0 7%;
-  display: table;
+    display: inline-block;
+    background: black;
+    height:100%;
+    width:100%;
+    padding: 0 100px;
+    box-sizing:border-box;
+    margin: 0;
+}
+div {
   margin: 0;
-  max-width: none;
-  background-color: #373B44;
-  height: 100vh;
-
-  &:nth-of-type(2n) {
-    background-color: #FE4B74;
-  }
+  padding: 0;
+}
+.hero {
+  background: black;
 }
 .top {
-  height: 90vh;
+  padding-top: 30px;
+  background: green;
+}
+.top > .sen2 {
+  padding-top: 100px;
+}
+.top > .sen3 {
+  padding-top: 100px;
+}
+.top > .sen4 {
+  padding-top: 100px;
+}
+.top > div > h1 {
+  color: white;
+  font-family: monospace;
+  font-weight: lighter;
+  margin: 0;
+}
+.top > .sen2 > h1 {
+  color: black;
+  font-family: monospace;
+  float: right;
+  font-weight: lighter;
+  margin: 0;
+}
+.top > .sen3 > h1 {
+  font-family: monospace;
+  font-weight: lighter;
+}
+.top > .sen4 > h1 {
+  color: black;
+  font-family: monospace;
+  float: right;
+  font-weight: lighter;
+  margin: 0;
+}
+.mid {
+  background: white;
+}
+.bot {
+  background: red;
 }

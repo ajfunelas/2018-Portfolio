@@ -14,15 +14,19 @@
 <!-- Anime JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
 <!-- Animate on Scroll -->
-<script type="text/javascript" src="plugins\aos-master\src\js\aos.js"> </script>
+<script type="text/javascript" src="plugins/aos-master/dist/aos.js"> </script>
+<link rel="stylesheet" href="plugins/aos-master/dist/aos.css">
+<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
 <!-- Jquery .3x -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <!-- AOS Initialize -->
-<script>
-  AOS.init();
-</script>
+
 </head>
 <body>
+  <script>
+    AOS.init();
+  </script>
   <!-- Nav  -->
   <div class="container-fluid">
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
@@ -47,10 +51,37 @@
       </div>
     </div>
   </nav>
-  <!-- Content -->
-  <section>
-    <div class="top">
-      <p>Hi my name is Abner Jr</p>
+  <!-- Hero -->
+  <section class="hero">
+<div class="">
+</div>
+  </section>
+  <!-- 1st section -->
+  <section class="top">
+    <div data-aos="fade-right">
+      <h1>Hi my name is Abner Jr</h1>
+    </div>
+    <br/>
+    <div class="sen2" data-aos="fade-left">
+      <h1>and i like to code stuff</h1>
+    </div>
+    <br/>
+    <div class="sen3" data-aos="zoom-in-right">
+      <h1>Keep Scrolling</h1>
+    </div>
+    <br/>
+    <div class="sen4" data-aos="zoom-in-left">
+      <h1>to view my portfolio</h1>
+    </div>
+  </section>
+  <!-- 2nd section -->
+  <section class="mid">
+    <div>
+    </div>
+  </section>
+  <!-- 3rd section -->
+  <section class="bot">
+    <div>
     </div>
   </section>
 </body>
