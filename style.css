@@ -1,8 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css?family=Nixie+One');
+
 html, body {
     margin:0;
     height:100%;
     width:100%;
     padding:0;
+    scroll-behavior: smooth;
 }
 section {
     display: inline-block;
@@ -14,15 +18,22 @@ section {
     margin: 0;
 }
 div {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 .hero {
   background: black;
+  padding: 0px;
+}
+.hero > .imgKeep > img {
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
 }
 .top {
   padding-top: 30px;
-  background: green;
+  background: rgb(8, 134, 215);
 }
 .top > .sen2 {
   padding-top: 100px;
@@ -35,24 +46,24 @@ div {
 }
 .top > div > h1 {
   color: white;
-  font-family: monospace;
+  font-family: 'Nixie One', cursive;
   font-weight: lighter;
   margin: 0;
 }
 .top > .sen2 > h1 {
   color: black;
-  font-family: monospace;
+  font-family: 'Nixie One', cursive;
   float: right;
   font-weight: lighter;
   margin: 0;
 }
 .top > .sen3 > h1 {
-  font-family: monospace;
+  font-family: 'Nixie One', cursive;
   font-weight: lighter;
 }
 .top > .sen4 > h1 {
   color: black;
-  font-family: monospace;
+  font-family: 'Nixie One', cursive;
   float: right;
   font-weight: lighter;
   margin: 0;
