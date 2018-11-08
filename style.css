@@ -25,15 +25,24 @@ div {
   background: black;
   padding: 0px;
 }
+.hero > .imgKeep {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
 .hero > .imgKeep > img {
   width: 100%;
   height: 100%;
-  -webkit-filter: blur(3px);
-  filter: blur(3px);
+  /* -webkit-filter: blur(3px);
+  filter: blur(3px); */
 }
 .top {
   padding-top: 30px;
   background: rgb(8, 134, 215);
+}
+.top > .sen1 {
+  padding-top: 100px;
 }
 .top > .sen2 {
   padding-top: 100px;
